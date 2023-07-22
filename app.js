@@ -19,3 +19,10 @@ function mul(){
     document.getElementById("total").innerHTML=ans
 
 }
+function div(){
+    let fn=document.getElementById("fn").value
+    let sn=document.getElementById("sn").value
+    let ans=parseFloat(fn)/parseFloat(sn)
+    document.getElementById("total").innerHTML=ans
+
+}
